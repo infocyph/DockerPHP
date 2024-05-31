@@ -14,7 +14,7 @@ jobs:
       matrix:
         include:
           - dockerfile: ./src/fpm/Dockerfile
-            image: ghcr.io/${{ github.actor }}/php-fpm
+            image: ghcr.io/infocyph/php-fpm
 #          - dockerfile: ./src/Dockerfile
 #            image: ghcr.io/${{ github.repository }}/image2
     permissions:
